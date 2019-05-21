@@ -4989,7 +4989,7 @@ button.bg-danger:focus {
   background-color: #bd2130 !important; }
 
 .bg-light {
-  background-color: #f8f9fa !important; }
+  background-color: #ffffff !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -7533,7 +7533,7 @@ h1, h2, h3, h4, h5,
         bottom: 0;
         left: 0;
         right: 0;
-        background: #000;
+/*        background: #000;*/
         opacity: .5; }
       .owl-carousel.home-slider .slider-item .slider-text {
         color: #fff;
@@ -7660,7 +7660,7 @@ h1, h2, h3, h4, h5,
     display: inline-block; }
 
 .bg-light {
-  background: #fafafa !important; }
+  background: #ffffff !important; }
 
 .bg-primary {
   background: #fac564; }
@@ -7735,7 +7735,7 @@ h1, h2, h3, h4, h5,
       margin-bottom: 0; }
   .ftco-intro .wrap .social {
     width: 35%;
-    background: #fac564; }
+    background: #f7b235; }
     @media (max-width: 767.98px) {
       .ftco-intro .wrap .social {
         width: 100%; } }
