@@ -383,6 +383,7 @@
 }
 .icon-calendar:before {
   content: "\f073";
+  color:white;
 }
 .icon-random:before {
   content: "\f074";
