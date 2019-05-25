@@ -6189,8 +6189,7 @@ button.bg-dark:focus {
   margin-right: 3rem !important; }
 
 .mb-5,
-.my-5 {
-  margin-bottom: 3rem !important; }
+.my-5 { }
 
 .ml-5,
 .mx-5 {
@@ -6593,8 +6592,7 @@ button.bg-dark:focus {
   .mx-md-5 {
     margin-right: 3rem !important; }
   .mb-md-5,
-  .my-md-5 {
-    margin-bottom: 3rem !important; }
+  .my-md-5 { }
   .ml-md-5,
   .mx-md-5 {
     margin-left: 3rem !important; }
@@ -8206,7 +8204,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  padding: 7em 0;
+  padding: 3em 0;
   background: #009f95; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
