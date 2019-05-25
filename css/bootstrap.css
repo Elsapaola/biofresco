@@ -4160,8 +4160,8 @@ tbody.collapse.show {
             flex-direction: row;
   }
   .navbar-toggleable-md .navbar-nav .nav-link {
-    padding-right: 3.5rem;
-    padding-left: 7.5rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
   }
   .navbar-toggleable-md > .container {
     display: -webkit-box;
@@ -4372,7 +4372,7 @@ tbody.collapse.show {
 }
 
 .navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover {
-  color: #029f95!important;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .navbar-inverse .navbar-nav .nav-link.disabled {
@@ -8276,6 +8276,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     margin-right: 3rem !important;
   }
   .mb-md-5 {
+    margin-bottom: 3rem !important;
   }
   .ml-md-5 {
     margin-left: 3rem !important;
