@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5,
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center center;
-			height: 750px;
+			height: 650px!important;
 			position: relative;
 			z-index: 0;
 			.overlay{
@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5,
 			}
 			.slider-text {
 				color: $white;
-				height: 750px;
+				height: 650px!important;
 				text-align: right;
 				@include media-breakpoint-up(lg){
 					.order-md-last{
