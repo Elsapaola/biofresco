@@ -183,6 +183,13 @@ svg:not(:root) {
 table {
   border-collapse: collapse; }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
