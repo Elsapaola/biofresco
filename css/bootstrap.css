@@ -4160,8 +4160,8 @@ tbody.collapse.show {
             flex-direction: row;
   }
   .navbar-toggleable-md .navbar-nav .nav-link {
-    padding-right: 4.5rem;
-    padding-left: 3.5rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
   }
   .navbar-toggleable-md > .container {
     display: -webkit-box;
