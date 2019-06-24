@@ -6008,12 +6008,14 @@ button.close {
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
   max-width: 30px;
-  height: 3px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: 1px solid #ffb41c;
 }
 
 .carousel-indicators li::before {
@@ -6037,7 +6039,7 @@ button.close {
 }
 
 .carousel-indicators .active {
-  background-color: #fff;
+  border:1px solid #ffb41c;
 }
 
 .carousel-caption {
