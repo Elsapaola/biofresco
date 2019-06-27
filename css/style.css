@@ -7533,7 +7533,7 @@ h1, h2, h3, h4, h5,
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      height: 615px;
+      height: 675px;
       position: relative;
       z-index: 0; }
       .owl-carousel.home-slider .slider-item .overlay {
@@ -7630,7 +7630,7 @@ h1, h2, h3, h4, h5,
         border-radius: 50%;
         background: #e6e6e6;
         background: none;
-        border: 2px solid rgba(255, 255, 255, 0.5);
+        border: 2px solid #ffb31e;
         outline: none !important;
         position: relative;
         -webkit-transition: .3s all ease;
@@ -7641,7 +7641,7 @@ h1, h2, h3, h4, h5,
           position: absolute;
           width: 12px;
           height: 12px;
-          background: rgba(255, 255, 255, 0.5);
+          background: rgb(255, 181, 23);
           border-radius: 50% !important;
           left: 50%;
           top: 50%;
@@ -7650,7 +7650,7 @@ h1, h2, h3, h4, h5,
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
-          border: 2px solid white; }
+          border: 2px solid #ffb31e; }
           .owl-carousel.home-slider .owl-dots .owl-dot.active span {
             background: white; }
 
