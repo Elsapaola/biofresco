@@ -36,10 +36,10 @@
 </head>
 
 <body>
-        
-    <nav style="background-image: url('./images/fondo-nubes.jpg'); justify-content: center; background-repeat: no-repeat; background-size: cover;"
+
+    <nav  id="inicio" style="background-image: url('./images/fondo-nubes.jpg'); justify-content: center; background-repeat: no-repeat; background-size: cover;"
         class="navbar navbar-toggleable-md navbar-inverse">
-        <button class="navbar-toggler navbar-toggler-right bg-primary" style="    margin-top: -130px;" type="button" data-toggle="collapse"
+        <button class="navbar-toggler navbar-toggler-right bg-primary" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,8 @@
             <div class="col-xs-12">
                 <div class="center-block">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <a class="navbar-brand hidden-md-down" href="#"><img style="width:130px" src="images/Logo_color.png"></a>
+                        <a class="navbar-brand hidden-md-down" href="#"><img style="width:130px"
+                                src="images/Logo_color.png"></a>
                     </div>
                 </div>
             </div>
@@ -59,28 +60,25 @@
         text-align: center;" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: #6d6d6d">Inicio</a>
+                    <a class="nav-link" href="#inicio" style="color: #6d6d6d">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: #6d6d6d">Nosotros</a>
+                    <a class="nav-link" href="#nosotros" style="color: #6d6d6d">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: #6d6d6d">Productos</a>
+                    <a class="nav-link" href="#productos" style="color: #6d6d6d">Productos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" style="color: #6d6d6d">Deshidratados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: #6d6d6d">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: #6d6d6d">Contacto</a>
+                    <a class="nav-link" href="#contacto" style="color: #6d6d6d">Contacto</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <section class="home-slider owl-carousel img">
+    <section id="inicio" class="home-slider owl-carousel img">
         <div class="slider-item responsive" style="background-image: url(images/banner1-1.png);">
             <div class="overlay"></div>
             <div class="container">
@@ -111,8 +109,7 @@
 
     </section>
 
-    <section class="ftco-about d-md-flex" style="margin-top: 120px;">
-        <div class="one-half img" style="background-image: url(images/organico-1.jpg)"></div>
+    <section id="nosotros" class="ftco-about d-md-flex" style="margin-top: 120px;">
         <div class="one-half ftco-animate">
             <div class="heading-section ftco-animate ">
                 <h2 class="mb-4" style="color: rgb(0, 159, 149);">Bienvenido a Biofresco</h2>
@@ -121,13 +118,16 @@
                 <p style="color: black">La compañía BIOFRESCO inicia su actividad económica en enero del año 2011, y sus
                     socios son tercera generación en la distribución y comercialización de Hortalizas. Actualmente son
                     Líder en la comercialización de Lechugas de la variedad ¨Escarola¨, como también el Apio en su
-                    variedad «Apium Graveolens». Su origen son las productivas tierras de la cuarta región, contando con
+                    variedad «Apium Graveolens».<br><br> Su origen son las productivas tierras de la cuarta región,
+                    contando con
                     las de 100 hectáreas plantadas, y las autorizaciones pertinentes del Seremi de Salud, paralelamente
                     se consta de una flota de camiones y camionetas, lo que asegura una excelente distribución.</p>
             </div>
         </div>
+        <div class="one-half img" style="background-image: url(images/organico-1.jpg)"></div>
+
     </section>
-    <section class="ftco-section ftco-services">
+    <section id="productos" class="ftco-section ftco-services">
         <div class="overlay"></div>
         <div class="container">
             <div class="row justify-content-center mb-5 pb-3">
@@ -136,7 +136,7 @@
                     <p>Explicar mas o menos de que se trata, el proceso de cada producto</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-md-center">
                 <div class="col-md-4 ftco-animate">
                     <div class="media d-block text-center block-6 services">
                         <div class="icon d-flex justify-content-center align-items-center mb-5">
@@ -152,10 +152,33 @@
                 <div class="col-md-4 ftco-animate">
                     <div class="media d-block text-center block-6 services">
                         <div class="icon d-flex justify-content-center align-items-center mb-5">
-                            <span class="flaticon-bicycle"></span>
+                            <span class="flaticon-chef"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Procesados</h3>
+                            <a href="services.html"><h3 class="heading">Procesados</h3></a>
+                            <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="media d-block text-center block-6 services">
+                        <div class="icon d-flex justify-content-center align-items-center mb-5"><span
+                                class="flaticon-diet"></span></div>
+                        <div class="media-body">
+                            <h3 class="heading">Deshidratados</h3>
+                            <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ftco-animate">
+                    <div class="media d-block text-center block-6 services">
+                        <div class="icon d-flex justify-content-center align-items-center mb-5">
+                            <span class="flaticon-diet"></span>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="heading">Sal Vegetal</h3>
                             <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum when an
                                 unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
@@ -166,18 +189,29 @@
                         <div class="icon d-flex justify-content-center align-items-center mb-5"><span
                                 class="flaticon-pizza-1"></span></div>
                         <div class="media-body">
-                            <h3 class="heading">Producto 3</h3>
+                            <h3 class="heading">Apigenina</h3>
                             <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum when an
                                 unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
             </div>
         </div>
     </section>
     <section class="ftco-section">
         <div class="container">
-           <!--<div class="row justify-content-center mb-5 pb-3">
+            <!--<div class="row justify-content-center mb-5 pb-3">
                 <div class="col-md-7 heading-section ftco-animate text-center">
                 </div>
             </div>-->
@@ -228,7 +262,7 @@
         </div>
     </section>
 
-    <section class="ftco-appointment" style="background-color: white">
+    <section id="contacto" class="ftco-appointment" style="background-color: white">
         <div class="overlay"></div>
         <div class="container-wrap">
             <div class="row no-gutters d-md-flex align-items-center" style="margin-top: -120px;">
@@ -239,6 +273,16 @@
                 </div>-->
                 <div class="col-md-12 appointment ftco-animate">
                     <h3 class="mb-3 text-center" style="color: rgb(0, 159, 149);">Contacto</h3>
+                    <p class="mb-3 text-center"><strong>ventas@biofresco.cl</strong> </p>
+                    <div>
+                        <ul class="ftco-footer-social text-center list-unstyled  mt-1">
+                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/biofrescoltda/" target="_blank" ><span
+                                        class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/biofresco_/" target="_blank"><span
+                                        class="icon-instagram"></span></a></li>
+                        </ul>
+                    </div>
                     <form action="#" class="appointment-form">
                         <div class="d-md-flex">
                             <div class="form-group">
@@ -249,7 +293,13 @@
                         <div class="d-me-flex">
                             <div style="color: red!important" class="form-group">
                                 <input style="color:black!important" type="text" class="form-control"
-                                    placeholder="Apellido">
+                                    placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="d-me-flex">
+                            <div style="color: red!important" class="form-group">
+                                <input style="color:black!important" type="text" class="form-control"
+                                    placeholder="Teléfono">
                             </div>
                         </div>
                         <div class="form-group">
@@ -272,51 +322,59 @@
                 <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
                     <div class="ftco-footer-widget">
                         <img style="width: 200px;margin-top: -30px" src="images/Logo_color.png">
-                        <br>
-                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-1">
-                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                        </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">Biofresco</h2>
                         <p>Empresa dedicada a la producción y distribución de productos del campo bajo altos estándares
                             de calidad. <br><strong>Prefiera Biofresco</strong></p>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
                     <div class="ftco-footer-widget mb-4 ml-md-4">
                         <h2 class="ftco-heading-2">Productos</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="py-2 d-block">Procesados</a></li>
-                            <li><a href="#" class="py-2 d-block">Deshidratados</a></li>
-                            <li><a href="#" class="py-2 d-block">Sal Vegetal</a></li>
-                            <li><a href="#" class="py-2 d-block">Apigenina</a></li>
+                            <li class="list-unstyled d-block"><a href="">Productos</a>
+                                <ul>
+                                    <li class="menu_down"><a href="#">Granel</a></li>
+                                    <li class="menu_down"><a href="#">Procesados</a></li>
+                                </ul>
+                            </li>
+                            <li class="list-unstyled py-1 d-block"><a href="">Deshidratados</a></li>
+                            <li class="list-unstyled py-1 d-block"><a href="">Sal Vegetal</a></li>
+                            <li class="list-unstyled py-1 d-block"><a href="">Apigenina</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Encuéntranos</h2>
-                        <div class="block-23 mb-3">
-                            <ul>
-                                <li><span class="text">
-                                        Martin de Solier # 4247<br>
-                                        Cerrillos</span></li>
-                                <li><span class="text">+56 2684 0696
+                    <div class="ftco-footer-widget">
+                        <div class="ftco-footer-widget mb-4">
+                            <h2 class="ftco-heading-2">Encuéntranos</h2>
+                            <div class="block-23 mb-3">
+                                <ul>
+                                    <li><span class="text">
+                                            Martin de Solier # 4247<br>
+                                            Cerrillos</span></li>
+                                    <li><span class="text">+56 2684 0696
                                         </span></li>
-                            </ul>
+                                </ul>
+                            </div>
                         </div>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-1">
+                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/biofrescoltda/" target="_blank"><span
+                                        class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/biofresco_/" target="_blank"><span
+                                        class="icon-instagram"></span></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
 
-                    <p>
+                    <p><br>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Sitio diseñado con mucho <i class="icon-heart" aria-hidden="true"></i>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
